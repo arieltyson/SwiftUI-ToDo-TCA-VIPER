@@ -11,7 +11,7 @@ import SwiftUI
 struct TCA_VIPERApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TaskListRouter.createModule()
         }
     }
 }
